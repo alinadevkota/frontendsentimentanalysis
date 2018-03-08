@@ -20,9 +20,13 @@ function update(){
         
         document.getElementById("content").data="categories.html";
     };
+    document.getElementById("searchresults").onclick=function(){
+        
+        document.getElementById("content").data="searchresults.html";
+    };
     document.getElementById('search').addEventListener('keypress', function(event) {
         if (event.keyCode == 13) {
-            alert("hi!");
+            
         }
     });
 	
